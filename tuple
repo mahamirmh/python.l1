@@ -1,0 +1,20 @@
+#tuple تغییر ناپذیرند اول باید تو list بریزی بعد بتونی تغییرش بدی
+mytuple=("hi",3,7.2,6,"bye")
+print(mytuple)
+print(len(mytuple))
+print(mytuple[0])
+
+#----------
+
+tuple1=("frontenduni",)
+print(tuple1)
+i = 0
+while i<len(mytuple):
+        print(mytuple[i])
+        i+=1
+a=list(mytuple)
+a.remove("hi")
+print(a)
+print(mytuple)
+mytuple=tuple(a)
+print(mytuple)
