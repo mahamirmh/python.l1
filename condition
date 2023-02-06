@@ -1,0 +1,25 @@
+#string
+#condition
+#number=int(input("please enter a number: "))
+#print(number)
+#if number<10 :
+       # print("off: 10 %")
+        
+#elif number==10 :
+        #print("off : 15%")
+        
+#else :
+         #print("off :20%")   
+         
+#____________________________________
+#loop
+#i=0
+#while i<=3 :
+        #print (i)
+        #i=i+1
+        
+for a in range(2,11):
+         print(a)
+         if a == 4 :
+                 print("bye")
+                 break
