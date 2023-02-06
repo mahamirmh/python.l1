@@ -1,0 +1,46 @@
+mobile={ #dic mesle tuples va set tu ye khat neveshte nemishe
+   #be samt chapi migan key va samt rasti value...beineshun :  faramush nashe
+    "color":"gold",#enteha , faramush nashe
+    "brand":"apple",
+    "RAM":128
+}
+
+store={
+    "scarf":3,
+    "clothes":6,
+    "Tshirt":4,
+    "Jean":10
+}
+#print(mobile)
+#print(store)
+#print(store["Jean"])
+#print(len(store))
+mobile["type"]="iphone13"#ezafe mikonim be dic
+#print(mobile)
+mobile["color"]="black"#taghir dar dic
+#print(mobile)
+#print(mobile.keys())
+#print(mobile.values())
+del mobile["type"]#hazf mikonim
+print(mobile)
+del store #kol dic hazf mishe
+#print(store)
+i=0
+for i in mobile:
+    print(mobile[i])
+restaurant={ #dar dic binahayat dic {  } mishe baz kard 
+    "food":{
+        "number":130,#havaset bashe--> ,  alamat bad az meghdAr faramush nashe
+        "name":"burger"
+    },#havaset , bashe 
+    "drink":{
+        "number":150,
+        "name":"limonade"
+    },
+    "dessert":{
+        "number":100,
+        "name":"jelly"
+    }
+
+}
+print(restaurant)
