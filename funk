@@ -1,0 +1,23 @@
+"""
+def hello():
+        print("Hello maha!")       
+hello()
+
+job=input("please enter your job: ")
+
+def jobfunction(work):
+        {
+        print("I'm " +  work )
+}
+jobfunction(job)"""
+
+x=int(input("please enter a number 1: "))
+y=int(input("please enter a number 2: "))
+w=int(input("please enter a number 3: "))
+z=int(input("please enter a number 4: "))
+def add(a,b):
+        c=a+b
+        return c
+print (add(x,y))
+print (add(z,w))
+print (add(z,y))
