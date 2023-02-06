@@ -1,0 +1,27 @@
+a = 4 
+number = [4,3,2,1]
+print(number)
+
+#----------------
+food=["sup","pasta","pizza"]
+print(food)
+#---
+print(food[2])
+#----
+print(len(food))
+#-----
+mylist=["hi",5,4,6.1,4,"bye"]
+#-----
+food.remove("pasta")
+print(food)
+
+food.append("salad")
+print(food)
+#------
+food[0]="salad"
+print(food)
+#------
+print(mylist[1:4])
+for i in food :
+        print(i+"fastfood")
+#--------------------------
