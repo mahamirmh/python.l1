@@ -1,0 +1,28 @@
+class animal:
+        a="this is animal class in python" 
+s=animal()
+#print(s.a)
+
+class Dogs:
+      age =2
+      colore="black"
+      breed ="german"
+      #def bark(self):
+     #print("he is barking")
+            
+b=Dogs()
+#print(b.bark)
+#b.bark()
+
+class circle():
+         def __init__(self,radius):
+             self.r=radius
+         def mohit(self):
+             print(self.r*2*3.14)
+         def masahat(self):
+             print(self.r**2*3.14)
+
+radius=float(input("plaese enter radius: "))
+h=circle(radius)
+h.mohit()
+h.masahat()
