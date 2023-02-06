@@ -1,0 +1,12 @@
+myset={"hi",20,20,3,4,8}
+#print(myset)
+#set ha tu {}neveshte mishan +tekrari print nmigiran+tartib rayat nmikonan
+#set ha mesle majmue ha hastan 
+
+myset2 ={"bye",8,9}
+myset3 =myset.union(myset2)
+#print(myset3)
+myset4 =myset.intersection(myset2)
+#print(myset4)
+myset5=myset.symmetric_difference(myset2)
+print(myset5)
